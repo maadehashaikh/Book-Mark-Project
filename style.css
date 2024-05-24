@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  background-color: rgb(166, 62, 226);
+}
+.main{
+  position: absolute;
+  width: 65%;
+  height: 80vh;
+  
+  margin-top: 6%;
+ margin-left: 23%;
+}
+.main h1{
+  color: white;
+  margin-left: 170px;
+  font-size: 30px;
+  margin-top: 9px;
+}
+.main #bookmark{
+  color: white;
+  margin-top: 20px;
+  /* background-color: transparent; */
+  padding: 10px;
+  margin-left: 20px;
+  border: none;
+  border: 3px solid white;
+  width: 45%;
+  font-size: 20px
+}
+#bookmark::placeholder{
+  color:white;
+  font-size: 20px;
+}
+.main button{
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+}
+#bookMark{
+  margin-top: 20px;
+ width: 90%;
+}
+#bookMark li {
+  color: white;
+  list-style: none;
+  margin-left: 30px;
+  margin-right: -30px;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+#bookMark button{
+  padding: 5px;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 10%;
+}
